@@ -1,0 +1,17 @@
+.users-section {   
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.users-section h1 {
+  text-align: center;
+  color: #43244a;
+  margin-bottom: 2rem;
+}
+
+.users-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}

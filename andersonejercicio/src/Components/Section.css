@@ -1,17 +1,21 @@
-.users-section {   
+.users-section { /*  estilos de la seccion*/
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
 }
 
-.users-section h1 {
+.users-section h1 {    /*estilos del texto   */
   text-align: center;
-  color: #43244a;
-  margin-bottom: 2rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
 }
 
 .users-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+  gap: 30px; 
+  justify-items: center; /* Centra las tarjetas horizontalmente en cada celda */
 }
+
+
+

@@ -2,27 +2,27 @@ import { useState } from 'react'
 import { UserCard } from '../Components/UserCard'
 import './Section.css'
 
-import userImg from '../assets/mujer.png'
-import user2Img from '../assets/farmaceutico.png'
-import user3Img from '../assets/hombre.png'
+import userImg from '../assets/futbol.png'
+import user2Img from '../assets/baloncesto.png'
+import user3Img from '../assets/tenis.png'
 
 const users = [
   {
     id: 1,
-    name: 'Maguie Boo',
-    description: 'Frontend Developer',
+    name: 'Futbol',
+    description: 'Es un deporte de equipo donde juegan 11 jugadores por lado.',
     image: userImg
   },
   {
     id: 2,
-    name: 'Pepa Pombo',
-    description: 'Backend Developer',
+    name: 'Baloncesto',
+    description: 'Es un deporte de equipo donde juegan 5 jugadores por lado.',
     image: user2Img
   },
   {
     id: 3,
-    name: 'Lukas Toro',
-    description: 'Fullstack Developer',
+    name: 'Tenis',
+    description: 'Es un deporte individual o en parejas (dobles).',
     image: user3Img
   },
 ]
@@ -32,7 +32,7 @@ export const Section = () => {
 
   return (
     <section className="users-section">
-      <h1>personas</h1>
+      <h1>Deportes</h1>
       <div className="users-grid">
         {users.map((user) => (
           <UserCard key={user.id} user={user} />

@@ -1,0 +1,12 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: slategrey;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px; /* Igual al ancho del sidebar */
+  overflow-x: hidden; /* Evita desbordamiento horizontal */
+}
